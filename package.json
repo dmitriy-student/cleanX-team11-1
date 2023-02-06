@@ -18,7 +18,6 @@
     "url": "https://github.com/dmitriy-student/cleanX-team11-1/issues"
   },
   "dependencies": {
-    "imagemin": "^8.0.1",
     "imask": "^6.4.3",
     "modern-normalize": "^1.1.0"
   },

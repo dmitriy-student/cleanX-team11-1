@@ -1,2 +1,21 @@
-@import './common';
-@import './example';
+@import './base/base';
+@import './base/reset';
+
+@import './components/header';
+@import './components/hero';
+@import './components/how-work';
+@import './components/video-section';
+@import './components/our-services';
+@import './components/articles-resources';
+@import './components/feedback-form';
+@import './components/footer';
+
+@import './layouts/container';
+@import './layouts/forms';
+@import './layouts/section';
+
+@import './utils/common';
+@import './utils/fonts';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './utils/variables';
