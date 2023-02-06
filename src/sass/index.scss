@@ -1,5 +1,19 @@
+@import './utils/common';
+@import './utils/fonts';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './utils/variables';
+
 @import './base/base';
 @import './base/reset';
+
+
+@import './layouts/container';
+@import './layouts/forms';
+@import './layouts/section';
+@import './layouts/button';
+
+
 
 @import './components/header';
 @import './components/hero';
@@ -10,12 +24,5 @@
 @import './components/feedback-form';
 @import './components/footer';
 
-@import './layouts/container';
-@import './layouts/forms';
-@import './layouts/section';
 
-@import './utils/common';
-@import './utils/fonts';
-@import './utils/mixins';
-@import './utils/placeholders';
-@import './utils/variables';
+
