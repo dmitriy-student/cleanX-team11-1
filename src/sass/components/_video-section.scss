@@ -1,0 +1,89 @@
+.video-section {
+    padding-top: 240px;
+    padding-bottom: 240px;
+    border-top: 1px solid $border-color;
+
+    &__item {
+        width: 702px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 48px;
+        line-height: 1.21;
+        text-align: center;    
+        color: $text-color;
+        margin-bottom: 13px;
+    }
+
+    &__text {
+        font-size: 21px;
+        line-height: 1.43;
+        text-align: center;    
+        color: $text-color-secondary;
+        margin-bottom: 32px;
+    }
+}
+
+.progress-list {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 40px;
+
+    &__item {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    // &__icon {
+    //     stroke: drop-shadow(0px 4px 10px rgba(20, 20, 43, 0.04));
+    // }
+
+    &__title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.13;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;    
+        color: $text-color-secondary;
+        margin-bottom: 4px;
+    }
+
+    &__number {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.29;
+        color: $text-color;
+    }
+}
+.video {
+    position: relative;
+    margin: 0 auto;
+    width: 1012px;
+    height: 570px;
+    background: rgba(255, 255, 255, 0.5) url(../images/video_clearning.png) no-repeat center;
+    background-size: contain;
+    border-radius: 53px;
+
+       
+    &__item {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 198px;
+        height: 198px;
+        border-radius: 50%;
+        background-color: $white-color;
+        // fill: $main-color;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+
+    }
+
+    &__icon-play {
+        fill: $main-color;
+    }
+}
