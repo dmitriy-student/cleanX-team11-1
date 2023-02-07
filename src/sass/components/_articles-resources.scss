@@ -1,0 +1,131 @@
+.articles {
+    
+    // height: 1271px;
+  background-color: $white-color;
+
+    // .articles__container
+
+    &__container {
+        border-top:1px solid $border-color;
+                 border-radius: 0px;
+                 width: 1220px;
+                 padding: 240px 0;
+    }
+
+    // .articles__title
+
+    &__title {
+        font-weight: 700;
+font-size: 48px;
+color: $text-color;
+
+margin-bottom: 9px;
+    }
+
+    // .articles__text
+
+    &__text {
+        font-size: 21px;
+line-height: 30px;
+color: $text-color-secondary;
+    }
+
+    &__button {
+        font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+    }
+
+}
+
+.articles-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.articles-text {
+    width: 474px;
+}
+.articles-buttons {
+    display: flex;
+}
+
+.articles__button{
+    &-get{
+        background-color: $main-color;
+        color: $white-color;
+
+        margin-right: 28px;
+
+    }
+    &-browse{
+        color: $text-color;
+    
+        border: 1px solid #EFF0F6;
+    }
+}
+
+
+
+
+
+
+
+.slider-button {
+    position: absolute;
+    bottom: 49px;
+    right: 49px;
+    width: 50px;
+    height: 50px;
+    background-color: $main-color;
+    display: block;
+    cursor: pointer;
+    border: none;
+}
+
+.slide-info {
+    position: relative;
+    padding-left: 49px;
+    padding-top: 52px;
+    
+    background-color: $white-color;
+    margin: 0 auto ;
+    transform: translateY(-60px);
+    width: 536px;
+    height: 324px;
+    border: 1px solid #EFF0F6;
+box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+border-radius: 24px;
+}
+
+.slider-img{
+    overflow: hidden;
+    width: 596px;
+    height: 366px;
+}
+
+.articles-slide{
+    margin: 0 14px;
+    &__title{
+        font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+color: $text-color;
+margin-bottom: 17px;
+    }
+    &__text{
+        font-weight: 400;
+font-size: 21px;
+line-height: 30px;
+color: $text-color-secondary;
+margin-bottom: 10px;
+    }
+    &__date {
+    font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+color: $text-color;
+}
+
+}
