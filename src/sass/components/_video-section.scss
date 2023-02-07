@@ -63,8 +63,8 @@
     margin: 0 auto;
     width: 1012px;
     height: 570px;
-    // background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-mobile.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5)), (rgba(255, 255, 255, 0.5)), url(../images/video_clearning.png);
+    background-color: $bg-color-secondary;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/video_clearning.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
