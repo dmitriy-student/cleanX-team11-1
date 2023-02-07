@@ -79,7 +79,6 @@
   max-width: 1220px;
   width: 100%;
   border-radius: 24px;
-//   margin-bottom: 260px;
     margin-bottom: 200px;
     display: flex;
     align-items: center;
@@ -174,6 +173,7 @@ line-height: 1.28;
 .areas {
     display: flex;
     gap: 80px;
+    margin-bottom: 224x;
 }
 .areas__title {
   font-family: 'Roboto';
@@ -216,3 +216,10 @@ margin-bottom: 51px;
 
 
 // different
+.different__title {
+font-weight: 700;
+font-size: 48px;
+line-height: 1.20;
+color: $text-color;
+
+}
