@@ -9,27 +9,39 @@
         <ul class="list services__list">
             <li class="card">
                 <div class="card-wrapper">
-                <svg>
-                    <use href="#"></use>
-                </svg>
+                    <img srcset="
+                    ./images/house_clearning.png 1x,
+                    ./images/house_clearning2x.png 2x
+                   "
+                    class="services__img"
+                    src="./images/house_clearning.png" alt="House cleaning"
+                  width="220" height="190" >
                 <h3 class="card__subtitle">House cleaning</h3>
                 <p class="card__text">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est.</p>
                 </div>
             </li>
             <li class="card">
                 <div class="card-wrapper">
-                <svg>
-                    <use href="#"></use>
-                </svg>
+                    <img srcset="
+                    ./images/office_clearing.png 1x,
+                    ./images/office_clearing@2x.png
+                    "
+                    class="sanitization__img"
+                    src="./images/office_clearing.png" alt="Office clearing"
+                    width="220" height="224">
                 <h3 class="card__subtitle">Office cleaning</h3>
                 <p class="card__text">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est.</p>
                 </div>
             </li>
             <li class="card">
                 <div class="card-wrapper">
-                    <svg>
-                        <use href="#"></use>
-                    </svg>
+                    <img srcset="
+                    ./images/industrial_clearing.png 1x,
+                    ./images/industrial_clearing@2x.png 2x
+                    "
+                    class="sanitization__img"
+                    src="./images/industrial_clearing.png" alt="Industrial cleaning"
+                    width="250" height="200">
                     <h3 class="card__subtitle">Industrial cleaning</h3>
                     <p class="card__text">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est.</p>
                 </div>
@@ -47,38 +59,53 @@
             <h2 class="sanitization__title">Covid-19 sanitization</h2>
             <h3 class="sanitization__subtitle">We follow guidelines to keep you safe from the COVID-19 virus</h3>
             <p class="sanitization__text">Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue massa mauris lectus.</p>
-            <button class="button sanitization__button" type="button">Get a free quote</button>
-             <div class="contact-phone sanitization__contact-phone">
-               <div class="contact-phone__elipse">
-                <svg class="phone-svg" width="35" height="35">
-                    <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-               </div>
-                <span>Call us now</span>
-                <a class="link" href="tel:+(414) 567 - 2109">(414) 567 - 2109</a>
-             </div>
+            <div class="combined-wrapper">
+                <button class="button sanitization__button" type="button">Get a free quote</button>
+                <div class="contact-phone sanitization__contact-phone">
+                  <div class="contact-phone__elipse">
+                   <svg class="phone-svg" width="35" height="35">
+                       <use href="./images/icons.svg#icon-phone"></use>
+                   </svg>
+                  </div>
+                  <div class="wrapper-link">
+                   <span class="tel-text">Call us now</span>
+                   <a class="link sanitization__link" href="tel:+(414) 567 - 2109">(414) 567 - 2109</a>
+                  </div>
+                </div>
+            </div>
+
         </div>
        
     </div>
     <div class="areas">
-        <h2 class="areas__title">We cover all areas of your home or office</h2>
-        <p class="areas__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        <div class="areas-wrapper-list">
-            <ul class="list areas__list">
-                <li class="areas__item">Bathrooms</li>
-                <li class="areas__item">Kitchens</li>
-                <li class="areas__item">Living Rooms</li>
-                <li class="areas__item">Carpets</li>
-            </ul>
-            <ul class="list areas__list">
-                <li class="areas__item">Bedrooms</li>
-                <li class="areas__item">Offices</li>
-                <li class="areas__item">Businesses</li>
-                <li class="areas__item">Windows</li>
-            </ul>
+        <img srcset="
+        ./images/home.png 1x,
+        ./images/home@2x.png 2x"
+        src="./images/home.png" alt="Home"
+        width="640" height="680">
+
+        <div class="areas-wrapper--big">
+            <h2 class="areas__title">We cover all areas of your home or office</h2>
+            <p class="areas__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <div class="areas-wrapper-list">
+                <ul class="list areas__list">
+                    <li class="areas__item">
+                        <svg><use href="./images/icons.svg#icon-job_done"></use></svg>
+                        Bathrooms</li>
+                    <li class="areas__item">Kitchens</li>
+                    <li class="areas__item">Living Rooms</li>
+                    <li class="areas__item">Carpets</li>
+                </ul>
+                <ul class="list areas__list">
+                    <li class="areas__item">Bedrooms</li>
+                    <li class="areas__item">Offices</li>
+                    <li class="areas__item">Businesses</li>
+                    <li class="areas__item">Windows</li>
+                </ul>
+            </div>
+            <button class="button areas__button" type="button">Get a free quote</button>
         </div>
        
-        <button class="button areas__button" type="button">Get a free quote</button>
     </div>
     <div class="different">
         <h2 class="different__title">What makes us different?</h2>

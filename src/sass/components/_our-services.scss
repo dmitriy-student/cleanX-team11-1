@@ -31,13 +31,14 @@
   //  }
 }
 .services__list {
-    max-width: 338px;
   margin-bottom: 240px;
   display: flex;
-  align-items: center;
+//   align-items: center;
   gap: 28px;
 }
 .card {
+    max-width: 388px;
+    padding-bottom: 29px;
   background: #ffffff;
   border: 1px solid #eff0f6;
   box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
@@ -50,6 +51,15 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   
+  }
+  &:first-child {
+    padding: 84px 84px 29px;
+  }
+  &:nth-child(2) {
+    padding: 49px 84px 29px;
+  }
+  &:last-child {
+    padding: 73px 69px 29px;
   }
 
   &__subtitle {
@@ -67,9 +77,10 @@
 .sanitization {
   background-color: $bg-dark-color;
   max-width: 1220px;
+  width: 100%;
   border-radius: 24px;
 //   margin-bottom: 260px;
-    margin-bottom: 201px;
+    margin-bottom: 200px;
     display: flex;
     align-items: center;
     gap: 72px;
@@ -109,7 +120,20 @@
     border: none;
   }
 }
+.sanitization-wrapper {
+    padding-right: 74px;
+}
 
+.combined-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 28.5px;
+}
+.sanitization__contact-phone {
+    display: flex;
+    align-items: flex-start;
+    // gap: 16,5px;
+}
 .phone-svg {
   fill: $main-color;
   // display: flex;
@@ -120,19 +144,44 @@
 .contact-phone__elipse {
   background-color: $white-color;
   border-radius: 50%;
-  max-width: 71px;
-  max-height: 71px;
+    margin-right: 16.5px;
+    padding: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.wrapper-link {
+    display: flex;
+    // align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+    color: $white-color;
+}
+.tel-text {
+    text-transform: uppercase;
+    // font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 1.6px;  
+}
+.sanitization__link {
+    font-weight: 700;
+font-size: 28px;
+line-height: 1.28;
+}
 // areas
+.areas {
+    display: flex;
+    gap: 80px;
+}
 .areas__title {
   font-family: 'Roboto';
   // font-weight: 700;
   font-size: 48px;
   line-height: 1.2;
+  padding-top: 43px;
+  margin-bottom: 19px;
   color: $text-color;
 }
 .areas__text {
@@ -140,6 +189,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66;
+  margin-bottom: 30px;
   color: $text-color-secondary;
   max-width: 496px;
 }
@@ -147,11 +197,16 @@
 display: flex;
 align-items: center;
 gap: 112px;
+margin-bottom: 51px;
 }
 .areas__item {
     font-size: 18px;
     line-height: 1.1;
     color:  $text-color;
+    margin-bottom: 30px;
+    &:last-child {
+        margin-bottom: 0;
+    }
   }
 .areas__button {
     background-color: $main-color;
