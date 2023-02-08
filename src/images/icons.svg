@@ -44,5 +44,8 @@
 <path fill="#edf5ff" style="fill: var(--color1, #edf5ff)" d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16c-8.837 0-16 7.163-16 16s7.163 16 16 16z"></path>
 <path fill="none" stroke="#0075ff" style="stroke: var(--color2, #0075ff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4615" d="M8.759 17.035l4.138 4.138 10.344-10.344"></path>
 </symbol>
+<symbol id="icon-frame" viewBox="0 0 32 32">
+<path fill="#edf5ff" style="fill: var(--color1, #edf5ff)" d="M0 7.111c0-3.927 3.184-7.111 7.111-7.111h17.778c3.927 0 7.111 3.184 7.111 7.111v17.778c0 3.927-3.184 7.111-7.111 7.111h-17.778c-3.927 0-7.111-3.184-7.111-7.111v-17.778z"></path>
+</symbol>
 </defs>
 </svg>
