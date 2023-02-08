@@ -10,7 +10,7 @@
     width: 518px;
     margin-top: 227px;
     font-size: 68px;
-    color: #211F54;
+    color: $text-color;
 }
 
 .hero-text{
@@ -18,10 +18,46 @@
     margin-top: 22px;
     margin-right: 19px;
     font-size: 21px;
-    color: #6E7191;
+    line-height: 1.42;
+    color: $text-color-secondary;
 }
 
 .hero-button-container{
     display: flex;
+    margin-top: 34px;
 
+}
+
+.hero-btn{
+    color: $white-color;
+    max-width: 217px;
+    background-color: $main-color;
+    border: none;
+    margin-right: 28px;
+}
+
+.hero-call-btn{
+    width: 71px;
+    background: $white-color;
+    border: 1px solid $border-color;
+    border-radius: 50%;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__svg{
+        fill: $main-color;
+    }
+}
+
+.hero-call-us{
+    letter-spacing: 1.6px;
+    color: $text-color-secondary;
+}
+
+.hero-phone-number{
+    font-weight: 700;
+    font-size: 28px;
+    color: $text-color;
 }
