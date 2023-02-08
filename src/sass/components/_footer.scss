@@ -39,7 +39,7 @@
   &__contacts--adress {
     display: flex;
     flex-direction: column;
-    margin-left: 45px;
+    margin-left: 40px;
     h3 {
       font-weight: 700;
       font-size: 20px;
@@ -49,7 +49,7 @@
       color: $text-color;
     }
     ul {
-      margin-left: 25px;
+      padding-left: 25px;
       max-width: 256px;
       li:not(:last-child) {
         margin-bottom: 16px;
@@ -66,7 +66,8 @@
     }
   }
   &__contacts--hours {
-    margin-left: 50px;
+    min-width: 164px;
+    margin-left: 60px;
     h3 {
       font-weight: 700;
       font-size: 20px;
@@ -94,43 +95,41 @@
     }
   }
   &__contacts--estim {
-    margin-left: 50px;
-  }
-  h3 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.1;
-    margin-bottom: 28px;
+    min-width: 310px;
+    margin-left: 40px;
 
-    color: $text-color;
-  }
-  & .estim--telephone {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1.28;
-    color: $main-color;
-  }
-  p {
-    margin-top: 9px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.6;
-    max-width: 294px;
+    h3 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 1.1;
+      margin-bottom: 28px;
 
-    color: $text-color-secondary;
+      color: $text-color;
+    }
+    & .estim--telephone {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.28;
+      color: $main-color;
+    }
+    p {
+      margin-top: 9px;
+      margin-bottom: 45px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 294px;
+
+      color: $text-color-secondary;
+    }
+    & .estim--quote {
+      padding: 26px 38px;
+      border-radius: 14px;
+      background-color: $main-color;
+      color: $white-color;
+    }
   }
-  & .estim--quote {
-    margin-top: 44px;
-    padding: 26px 38px;
-    border-radius: 14px;
-    background-color: $main-color;
-    color: $white-color;
-  }
-}
-&__copyright {
-  padding-top: 40px;
-  padding-bottom: 32px;
 }
 
 .footer {
