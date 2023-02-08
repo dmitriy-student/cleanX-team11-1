@@ -119,7 +119,6 @@
   &__contact-phone {
     display: flex;
     align-items: flex-start;
-    // gap: 16,5px;
   }
   &__link {
     font-weight: 700;
@@ -198,6 +197,7 @@
   &__button {
     background-color: $main-color;
     color: $white-color;
+    max-width: 217px;
     border: none;
   }
 }
@@ -266,5 +266,6 @@
     border: none;
     background-color: $main-color;
     color: $white-color;
+    max-width: 217px;
   }
 }
