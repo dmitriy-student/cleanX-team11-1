@@ -1,7 +1,9 @@
 .video-section {
-    padding-top: 240px;
-    padding-bottom: 240px;
-    border-top: 1px solid $border-color;
+    
+    &__container {
+        border-top: 1px solid $border-color;
+        padding: 240px 0;
+    }
 
     &__item {
         width: 702px;
