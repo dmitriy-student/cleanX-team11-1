@@ -1,14 +1,13 @@
 .section-how-work{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 86px;
+    padding: 240px 86px;
+
 }
 
 .container-how-work{
     @extend %flex-centred;
     flex-direction: column;
-    margin-top: 240px;
-    margin-bottom: 240px;
 
 }
 
