@@ -1,0 +1,42 @@
+.header {
+  &__block {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    display: flex;
+    align-items: center;
+  }
+  &__logo {
+    margin-right: 40px;
+  }
+  &__nav {
+    display: flex;
+    gap: 22px;
+  }
+  &__nav--item:last-child {
+    margin-left: 25px;
+  }
+  &__nav--link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: $text-color;
+  }
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-left: auto;
+  }
+  &__info--wallet {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: $text-color;
+  }
+  &__info--quote {
+    padding: 17px 24px 19px 24px;
+    border-radius: 14px;
+    background-color: $main-color;
+    color: $white-color;
+  }
+}

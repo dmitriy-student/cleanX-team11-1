@@ -1,7 +1,10 @@
 // SERVICES
-.our-services {
+.our-services__container {
+  padding-top: 240px;
+  border-top: 1px solid $border-color;
   padding-bottom: 200px;
 }
+
 .services-wrapper-btn {
   display: flex;
   align-items: center;
@@ -119,12 +122,15 @@
   &__contact-phone {
     display: flex;
     align-items: flex-start;
-    // gap: 16,5px;
   }
   &__link {
     font-weight: 700;
     font-size: 28px;
     line-height: 1.28;
+    &:hover,
+    &:focus{
+      color: $main-color;
+    }
   }
 }
 .sanitization-wrapper {
@@ -139,14 +145,25 @@
 .phone-svg {
   fill: $main-color;
 }
-
 .contact-phone__elipse {
   background-color: $white-color;
   border-radius: 50%;
   margin-right: 16.5px;
   padding: 18px;
   @extend %flex-centred;
+
+  &:hover,
+  &:focus{
+    background-color: $main-color;
+  }
+  &:hover .phone-svg  {
+    fill: $white-color;
+  }
 }
+// .contact-phone__elipse:hover + .phone-svg {
+//   fill: $white-color;
+//   background-color: $main-color;
+// }
 
 .wrapper-link {
   display: flex;
@@ -198,6 +215,7 @@
   &__button {
     background-color: $main-color;
     color: $white-color;
+    max-width: 217px;
     border: none;
   }
 }
@@ -266,5 +284,6 @@
     border: none;
     background-color: $main-color;
     color: $white-color;
+    max-width: 217px;
   }
 }
