@@ -1,7 +1,9 @@
 .video-section {
-    padding-top: 240px;
-    padding-bottom: 240px;
-    border-top: 1px solid $border-color;
+    
+    &__container {
+        border-top: 1px solid $border-color;
+        padding: 240px 0;
+    }
 
     &__item {
         width: 702px;
@@ -58,34 +60,70 @@
         color: $text-color;
     }
 }
-.video {
+// .video {
+//     position: relative;
+//     margin: 0 auto;
+//     width: 1012px;
+//     height: 570px;
+    // background-color: $bg-color-secondary;
+    // background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/video_clearning.png);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: contain;
+    // border-radius: 53px;
+    
+    // &__youtube {
+    //     border-radius: 53px;
+    // }
+
+       
+    // &__item {
+    //     position: absolute;
+    //     display: flex;
+    //     justify-content: center;
+    //     width: 198px;
+    //     height: 198px;
+    //     border-radius: 50%;
+    //     background-color: $white-color;
+    //     top: 50%;
+    //     left: 50%;
+    //     transform: translate(-50%, -50%)
+
+    // }
+
+    // &__icon-play {
+    //     fill: $main-color;
+    // }
+// }
+
+.f-video-container {
     position: relative;
+    display: block;
     margin: 0 auto;
     width: 1012px;
     height: 570px;
-    background-color: $bg-color-secondary;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/video_clearning.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+}
+.f-video-player {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56.25%;
     border-radius: 53px;
+}
 
-       
-    &__item {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 198px;
-        height: 198px;
-        border-radius: 50%;
-        background-color: $white-color;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%)
+.f-video-player iframe,
+.f-video-player object,
+.f-video-player embed {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
 
-    }
-
-    &__icon-play {
-        fill: $main-color;
-    }
+.f-video-cover {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
